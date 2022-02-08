@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond&family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond&family=Montserrat:wght@100&family=Roboto:wght@300&display=swap");
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #ffeedf;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 62px;
+  padding: 27px;
+}
+
+@media screen and (max-width: 650px) {
+  .container {
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
+#root,
+.App,
+.container {
+  height: 100%;
+}
+
+.card1 {
+  border: 1px solid black;
+  width: 290px;
+  height: 416px;
+  background-color: #fff;
+  color: #33793f;
+}
+
+.card2 {
+  border: 1px solid black;
+  width: 290px;
+  height: 416px;
+  background-color: #fff;
+  color: #33793f;
+}
+
+.card3 {
+  border: 1px solid black;
+  width: 290px;
+  height: 416px;
+  background-color: #fff;
+  color: #33793f;
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 48px;
+  font-family: "EB Garamond", serif;
+}
+
+h6 {
+  color: #999;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: medium;
+  letter-spacing: 0.1rem;
+}
+
+p {
+  color: #999;
+  font-size: 24px;
+  font-family: "EB Garamond", serif;
+  font-weight: normal;
+}
+
+/*
+.container > div {
+  min-height: 50%;
+  margin: 10px;
+  padding: 10px;
+}
+*/
